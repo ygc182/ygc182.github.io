@@ -1,0 +1,49 @@
+/*元素选择器，又称标签或类型选择器*/
+html {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00539F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+p:first-line {
+    color: olivedrab;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/*id选择器*/
+#my-id {
+    color: aqua;
+}
+
+/*类选择器*/
+.my-class {
+    color: palegoldenrod;
+}
+
+/*伪类选择器：特定状态下的特定元素（比如鼠标指针悬停）*/
+a:hover {
+    color: olivedrab;
+}
+
+/*属性选择器： 拥有特定属性的元素*/
+img[src] {
+    color: chartreuse;
+}
