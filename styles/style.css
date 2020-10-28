@@ -47,3 +47,8 @@ a:hover {
 img[src] {
     color: chartreuse;
 }
+
+video {
+    width: 600px;
+    height: auto;
+}

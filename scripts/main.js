@@ -22,3 +22,7 @@ if (!localStorage.getItem('name')) {
     let cacheName = localStorage.getItem('name')
     document.querySelector('h1').textContent = '欢迎回来, ' + cacheName
 }
+
+function helloFix() {
+    alert('火狐，你好')
+}
